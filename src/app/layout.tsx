@@ -15,7 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Eli Gieryna",
-  description: "Writer and strategist based in the PNW.",
+  description: "Writer and content designer based in Kansas City.",
 };
 
 export default function RootLayout({
@@ -27,15 +27,15 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${playfair.variable} ${inter.variable} antialiased`}>
         <div className="flex min-h-screen">
-          <aside className="w-56 shrink-0 p-8 flex flex-col gap-8 border-r border-[#CDB887]">
-            <Link href="/" className="font-serif text-xl font-bold tracking-tight text-[#364D4A]">
+          <aside className="w-56 shrink-0 p-8 flex flex-col gap-8 border-r border-[#E8E6DC]">
+            <Link href="/" className="font-serif text-xl font-bold tracking-tight text-[#1C1C1A]">
               Eli Gieryna
             </Link>
-            <nav className="flex flex-col gap-4 text-sm font-sans text-[#364D4A]">
-              <Link href="/" className="hover:text-[#A96F3D] transition-colors">Home</Link>
-              <Link href="/work" className="hover:text-[#A96F3D] transition-colors">Work</Link>
-              <Link href="/about" className="hover:text-[#A96F3D] transition-colors">About</Link>
-              <Link href="/contact" className="hover:text-[#A96F3D] transition-colors">Contact</Link>
+            <nav className="flex flex-col gap-4 text-sm font-sans text-[#1C1C1A]">
+              <Link href="/" className="hover:text-[#E8622A] transition-colors">Home</Link>
+              <Link href="/work" className="hover:text-[#E8622A] transition-colors">Work</Link>
+              <Link href="/about" className="hover:text-[#E8622A] transition-colors">About</Link>
+              <Link href="/contact" className="hover:text-[#E8622A] transition-colors">Contact</Link>
             </nav>
           </aside>
           <main className="flex-1 p-12">
