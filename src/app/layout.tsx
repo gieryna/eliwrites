@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Libre_Baskerville, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const baskerville = Libre_Baskerville({
+  variable: "--font-baskerville",
   subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
 });
 
@@ -25,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${inter.variable} antialiased`}>
+     <body className={`${baskerville.variable} ${dmSans.variable} antialiased`}>
         <div className="flex min-h-screen">
           <aside className="w-56 shrink-0 p-8 flex flex-col gap-8 border-r border-[#E8E6DC]">
             <Link href="/" className="font-serif text-xl font-bold tracking-tight text-[#1C1C1A]">
