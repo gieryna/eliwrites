@@ -6,7 +6,7 @@ export default function MetaOnboarding() {
 
       {/* Hero */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Content Design · Content Strategy
         </p>
         <h1 className="font-serif text-4xl font-bold text-[#1C1C1A] mb-4 leading-tight">
@@ -17,15 +17,15 @@ export default function MetaOnboarding() {
         </p>
         <div className="grid grid-cols-3 gap-6 border-t border-b border-[#E8E6DC] py-6">
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Role</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Role</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Content Design Lead</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
             <p className="font-sans text-sm text-[#1C1C1A]">UX Research, Product Design, Engineering, PM</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Status</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Status</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Shipped</p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function MetaOnboarding() {
 
       {/* Overview */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Overview
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-4">
@@ -61,7 +61,7 @@ export default function MetaOnboarding() {
           We consolidated the flow from 8 steps to 5. Each remaining step had a clear job. Nothing was there just because it had always been there.
         </p>
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Content principle</p>
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Content principle</p>
           <p className="font-serif text-lg text-[#1C1C1A] leading-relaxed">
             Every step in an onboarding flow is a chance for a seller to decide this is not worth their time. The best thing you can do is give them fewer chances to make that call.
           </p>
@@ -93,7 +93,7 @@ export default function MetaOnboarding() {
           Rather than glossing over the ask, we leaned into it. The redesigned flow used value prop messaging to make an honest case for why onsite checkout was better for sellers, not just better for Meta. The difference in framing mattered.
         </p>
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Key insight</p>
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Key insight</p>
           <p className="font-serif text-lg text-[#1C1C1A] leading-relaxed">
             When you are asking someone to do something that benefits you, the only honest move is to lead with what is in it for them. Sellers could tell the difference.
           </p>
@@ -110,7 +110,7 @@ export default function MetaOnboarding() {
 
       {/* Impact */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Impact
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-4">

@@ -5,8 +5,8 @@ import { RefreshCw } from "lucide-react";
 
 const greetings = {
   morning: [
-    "Good morning.",
-    "Early bird.",
+    "Top of the morning.",
+    "Hey, early bird.",
     "Hope the coffee is strong.",
     "Good morning from Kansas City.",
   ],

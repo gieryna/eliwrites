@@ -55,7 +55,7 @@ export default function RootLayout({
   <div className="border-t border-[#E8E6DC]" />
 
   <div className="flex flex-col gap-1">
-    <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Connect</p>
+    <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Connect</p>
     <a href="https://www.linkedin.com/in/eligieryna" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-3 py-2 text-sm font-sans text-[#1C1C1A] rounded hover:bg-[#F5F3EC] hover:text-[#B84318] transition-colors">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
       LinkedIn

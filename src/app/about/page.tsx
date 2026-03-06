@@ -69,7 +69,7 @@ export default function About() {
 
       {/* Principles */}
       <div className="mb-10">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-6">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-6">
           My approach
         </p>
         <div className="grid grid-cols-3 gap-4">
@@ -97,7 +97,7 @@ export default function About() {
 
       {/* Brands */}
       <div className="mb-10">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Brands I've worked with
         </p>
         <p className="font-sans text-sm text-[#1C1C1A] leading-relaxed">
@@ -110,7 +110,7 @@ export default function About() {
 
       {/* Ask me about */}
       <div className="mb-10">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-6">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-6">
           Ask me about
         </p>
         <div className="grid grid-cols-2 gap-3">

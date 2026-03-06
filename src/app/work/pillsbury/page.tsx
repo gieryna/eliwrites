@@ -6,7 +6,7 @@ export default function Pillsbury() {
 
       {/* Hero */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Content Strategy · UX Design
         </p>
         <h1 className="font-serif text-4xl font-bold text-[#1C1C1A] mb-4 leading-tight">
@@ -17,15 +17,15 @@ export default function Pillsbury() {
         </p>
         <div className="grid grid-cols-3 gap-6 border-t border-b border-[#E8E6DC] py-6">
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Role</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Role</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Content Strategy, UX Design</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Creative Director, Engineering, SEO, Pillsbury Brand Team</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Status</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Status</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Shipped</p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function Pillsbury() {
 
       {/* Overview */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Overview
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-4">
@@ -61,7 +61,7 @@ export default function Pillsbury() {
           I started with content blocking rather than visual design, mapping the hierarchy of information before any layouts were drawn. Cook time, ingredient count, and reviews moved to the top. A larger photo window gave the food the visual presence it deserved, especially as Pillsbury was reshooting recipes with more modern photography.
         </p>
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Content principle</p>
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Content principle</p>
           <p className="font-serif text-lg text-[#1C1C1A] leading-relaxed">
             Scannability is a form of respect. If a user has 30 seconds to decide whether to make your recipe, your page should work within that constraint, not against it.
           </p>
@@ -91,7 +91,7 @@ export default function Pillsbury() {
 
       {/* Impact */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Impact
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-4">

@@ -6,7 +6,7 @@ export default function BillPay() {
 
       {/* Hero */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           UX Writing · Content Strategy
         </p>
         <h1 className="font-serif text-4xl font-bold text-[#1C1C1A] mb-4 leading-tight">
@@ -17,15 +17,15 @@ export default function BillPay() {
         </p>
         <div className="grid grid-cols-3 gap-6 border-t border-b border-[#E8E6DC] py-6">
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Role</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Role</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Content Designer & Strategist</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Product Design, PM, UX Research, Engineering</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Status</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Status</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Tested, not shipped</p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function BillPay() {
 
       {/* Overview */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Overview
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-4">
@@ -84,7 +84,7 @@ export default function BillPay() {
 
         {/* Callout */}
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Key insight</p>
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Key insight</p>
           <p className="font-serif text-lg text-[#1C1C1A] leading-relaxed">
             I proposed adding an explanation in a modal upfront that didn't gloss over the issue but framed why the product worked the way it did — in clear and honest terms.
           </p>
@@ -108,7 +108,7 @@ export default function BillPay() {
 
         {/* Callout */}
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Content challenge</p>
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Content challenge</p>
           <p className="font-serif text-lg text-[#1C1C1A] leading-relaxed">
             The flow had many decision points and branches — users needed to enter expense details, search for vetted providers, add new ones mid-flow, and add dependents without losing their place.
           </p>
@@ -141,7 +141,7 @@ export default function BillPay() {
 
       {/* Impact */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Impact
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed">

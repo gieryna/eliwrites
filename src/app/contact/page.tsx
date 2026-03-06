@@ -47,22 +47,22 @@ export default function Contact() {
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col gap-2">
-            <label className="font-sans text-xs uppercase tracking-widest text-[#B84318]">Name</label>
+            <label className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318]">Name</label>
             <input name="name" type="text" required className={inputClass} placeholder="Your name" />
           </div>
           <div className="flex flex-col gap-2">
-            <label className="font-sans text-xs uppercase tracking-widest text-[#B84318]">Email</label>
+            <label className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318]">Email</label>
             <input name="email" type="email" required className={inputClass} placeholder="your@email.com" />
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <label className="font-sans text-xs uppercase tracking-widest text-[#B84318]">Subject</label>
+          <label className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318]">Subject</label>
           <input name="subject" type="text" required className={inputClass} placeholder="What's this about?" />
         </div>
 
         <div className="flex flex-col gap-2">
-          <label className="font-sans text-xs uppercase tracking-widest text-[#B84318]">Message</label>
+          <label className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318]">Message</label>
           <textarea name="message" required rows={6} className={inputClass} placeholder="Say hello..." />
         </div>
 

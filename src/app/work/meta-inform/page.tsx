@@ -6,7 +6,7 @@ export default function MetaInform() {
 
       {/* Hero */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Content Design · Content Strategy
         </p>
         <h1 className="font-serif text-4xl font-bold text-[#1C1C1A] mb-4 leading-tight">
@@ -17,15 +17,15 @@ export default function MetaInform() {
         </p>
         <div className="grid grid-cols-3 gap-6 border-t border-b border-[#E8E6DC] py-6">
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Role</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Role</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Content Design Manager</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Product Design, PM, UXR, Engineering, Legal</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Status</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Status</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Launched</p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function MetaInform() {
 
       {/* Overview */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Overview
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-4">
@@ -61,7 +61,7 @@ export default function MetaInform() {
           We used email to first notify sellers of the INFORM requirements, sending messages at a regular cadence. The language became briefer and more direct as the deadline approached, but never punitive.
         </p>
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Key insight</p>
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Key insight</p>
           <p className="font-serif text-lg text-[#1C1C1A] leading-relaxed">
             Urgency and threat are not the same thing. We could be honest about the deadline and its consequences without making sellers feel punished for something they had not done yet.
           </p>
@@ -101,7 +101,7 @@ export default function MetaInform() {
           For eligible sellers, we worked with PM and engineering to build a 1-click verification option, letting them confirm existing details without re-entering anything.
         </p>
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Content challenge</p>
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Content challenge</p>
           <p className="font-serif text-lg text-[#1C1C1A] leading-relaxed">
             Sellers came to the flow at different points. Some had never heard of the INFORM Act, others were already partially compliant. The content had to meet them where they were.
           </p>
@@ -113,7 +113,7 @@ export default function MetaInform() {
 
       {/* Impact */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Impact
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-4">

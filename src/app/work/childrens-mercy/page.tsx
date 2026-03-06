@@ -6,7 +6,7 @@ export default function ChildrensMercy() {
 
       {/* Hero */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Content Strategy · UX Writing
         </p>
         <h1 className="font-serif text-4xl font-bold text-[#1C1C1A] mb-4 leading-tight">
@@ -17,15 +17,15 @@ export default function ChildrensMercy() {
         </p>
         <div className="grid grid-cols-3 gap-6 border-t border-b border-[#E8E6DC] py-6">
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Role</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Role</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Digital Experience Manager</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Partners</p>
             <p className="font-sans text-sm text-[#1C1C1A]">UX Research, Design, Engineering, SEO</p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-1">Status</p>
+            <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-1">Status</p>
             <p className="font-sans text-sm text-[#1C1C1A]">Shipped</p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function ChildrensMercy() {
 
       {/* Overview */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Overview
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-4">
@@ -61,7 +61,7 @@ export default function ChildrensMercy() {
           We restructured the navigation and information architecture around what families actually came to do: make an appointment, find a doctor, learn about a condition. Those tasks moved to the front. Everything else followed.
         </p>
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Key insight</p>
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Key insight</p>
           <p className="font-serif text-lg text-[#1C1C1A] leading-relaxed">
             A hospital website is not a brochure. For most families using it, something is already wrong. The site's job is to get them where they need to go, fast.
           </p>
@@ -93,7 +93,7 @@ export default function ChildrensMercy() {
           The redesigned homepage and navigation put those actions front and center. Tappable buttons. Immediate entry points. No unnecessary steps between a family and the thing they came to do.
         </p>
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-2">Content challenge</p>
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-2">Content challenge</p>
           <p className="font-serif text-lg text-[#1C1C1A] leading-relaxed">
             The site also had years of accumulated content debt: outdated pages, thin content, duplicates. As part of the broader content strategy, we consolidated and cleaned up the archive, standardized on-page SEO, and created content briefs to establish consistency across 3,500 pages.
           </p>
@@ -110,7 +110,7 @@ export default function ChildrensMercy() {
 
       {/* Impact */}
       <div className="mb-12">
-        <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-4">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-4">
           Impact
         </p>
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-4">
