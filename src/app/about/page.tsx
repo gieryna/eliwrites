@@ -56,11 +56,11 @@ export default function About() {
           </p>
         </div>
         <div className="flex flex-col items-center justify-start pt-2">
-          <div className="w-full aspect-square border border-dashed border-[#E8E6DC] flex items-center justify-center">
-            <p className="font-sans text-xs text-[#B84318] text-center px-4">
-              illustration<br />placeholder
-            </p>
-          </div>
+  <img
+    src="/images/site/about-illustration.svg"
+    alt="Coffee, books, and a pencil"
+    className="w-full max-w-xs"
+  />
         </div>
       </div>
 
