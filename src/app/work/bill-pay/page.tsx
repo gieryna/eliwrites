@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BillPay() {
   return (
@@ -44,9 +45,15 @@ export default function BillPay() {
         </p>
       </div>
 
-      {/* Image placeholder */}
-      <div className="w-full aspect-video bg-[#F5F3EC] flex items-center justify-center mb-12">
-        <p className="font-sans text-xs text-[#B84318]">image placeholder</p>
+      {/* Image 1 — flow overview */}
+      <div className="w-full mb-12">
+        <Image
+          src="/images/work/bill-pay/bill-pay-1.png"
+          alt="Bill pay flow overview"
+          width={800}
+          height={500}
+          className="w-full rounded"
+        />
       </div>
 
       {/* Section 1 */}
@@ -65,9 +72,15 @@ export default function BillPay() {
         </p>
       </div>
 
-      {/* Image placeholder */}
-      <div className="w-full aspect-video bg-[#F5F3EC] flex items-center justify-center mb-12">
-        <p className="font-sans text-xs text-[#B84318]">image placeholder</p>
+      {/* Image 2 — entry points */}
+      <div className="w-full mb-12">
+        <Image
+          src="/images/work/bill-pay/bill-pay-2.png"
+          alt="Entry points into the bill pay flow"
+          width={800}
+          height={500}
+          className="w-full rounded"
+        />
       </div>
 
       {/* Section 2 */}
@@ -81,6 +94,28 @@ export default function BillPay() {
         <p className="text-base text-[#1C1C1A] leading-relaxed mb-8">
           I worked to write content that set these expectations up front so users could plan for varied processing time that was likely longer than they expected. We also had internal logic where the system "chose" which account their bill was paid from. While this gave users the best allocation of their benefits, it also gave them less perceived control — and user testing showed this as a sticking point.
         </p>
+
+        {/* Image 3 — intro screens */}
+        <div className="w-full mb-8">
+          <Image
+            src="/images/work/bill-pay/bill-pay-3.png"
+            alt="Bill pay intro screens"
+            width={800}
+            height={500}
+            className="w-full rounded"
+          />
+        </div>
+
+       {/* Image 4 — why we choose the account */}
+<div className="w-full mb-8 bg-[#F5F3EC] rounded p-8 flex items-center justify-center">
+  <Image
+    src="/images/work/bill-pay/bill-pay-4.png"
+    alt="Why we choose the account for you"
+    width={400}
+    height={300}
+    className="w-full max-w-sm rounded shadow-sm"
+  />
+</div>
 
         {/* Callout */}
         <div className="bg-[#F5F3EC] border-l-4 border-[#B84318] p-6 mb-8">
@@ -115,9 +150,15 @@ export default function BillPay() {
         </div>
       </div>
 
-      {/* Image placeholder */}
-      <div className="w-full aspect-video bg-[#F5F3EC] flex items-center justify-center mb-12">
-        <p className="font-sans text-xs text-[#B84318]">image placeholder</p>
+      {/* Image 5 — flow overview with decision tree */}
+      <div className="w-full mb-12">
+        <Image
+          src="/images/work/bill-pay/bill-pay-5.png"
+          alt="Bill pay flow with decision tree logic"
+          width={800}
+          height={500}
+          className="w-full rounded"
+        />
       </div>
 
       {/* Section 4 */}
@@ -134,6 +175,17 @@ export default function BillPay() {
         <p className="text-base text-[#1C1C1A] leading-relaxed">
           By this point, the user had done the work to make it through the flow. Our job was to provide reassurance in plain language that the process had worked as expected.
         </p>
+      </div>
+
+      {/* Image 6 — confirmation screens */}
+      <div className="w-full mb-12">
+        <Image
+          src="/images/work/bill-pay/bill-pay-6.png"
+          alt="Bill pay confirmation screens"
+          width={800}
+          height={500}
+          className="w-full rounded"
+        />
       </div>
 
       {/* Divider */}
@@ -157,7 +209,7 @@ export default function BillPay() {
         <Link href="/work" className="font-sans text-sm text-[#1C1C1A] hover:text-[#B84318] transition-colors">
           ← All work
         </Link>
-        <Link href="/work" className="font-sans text-sm text-[#1C1C1A] hover:text-[#B84318] transition-colors">
+        <Link href="/work/meta-inform" className="font-sans text-sm text-[#1C1C1A] hover:text-[#B84318] transition-colors">
           Next project →
         </Link>
       </div>
