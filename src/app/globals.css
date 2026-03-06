@@ -20,3 +20,36 @@ body {
   color: var(--foreground);
   font-family: Georgia, serif;
 }
+
+.hand-underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.hand-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #B84318;
+  transform: scaleX(0) skewX(-8deg);
+  transform-origin: left center;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.hand-underline:hover::after {
+  transform: scaleX(1) skewX(-8deg);
+}
+
+@keyframes rock {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(-8deg); }
+  75%  { transform: rotate(8deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.logo-rock:hover {
+  animation: rock 0.5s ease-in-out;
+}

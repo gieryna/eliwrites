@@ -29,9 +29,21 @@ export default function RootLayout({
      <body className={`${baskerville.variable} ${dmSans.variable} antialiased`}>
         <div className="flex min-h-screen">
         <aside className="w-56 shrink-0 p-8 flex flex-col gap-8 border-r border-[#E8E6DC]">
-  <Link href="/" className="font-serif text-xl font-bold tracking-tight text-[#1C1C1A]">
-    Eli Gieryna
-  </Link>
+        <div className="flex flex-col gap-3">
+  <img
+    src="/images/site/logo-mark.svg"
+    alt="Eli Gieryna"
+    className="w-20 h-20 logo-rock"
+  />
+  <div>
+    <Link href="/" className="font-serif text-xl font-bold tracking-tight text-[#1C1C1A]">
+      Eli Gieryna
+    </Link>
+    <p className="font-sans text-xs text-[#1C1C1A] opacity-60 mt-0.5">
+      Writer + content designer
+    </p>
+  </div>
+</div>
 
   <nav className="flex flex-col gap-1 text-sm font-sans text-[#1C1C1A]">
     <Link href="/" className="flex items-center gap-3 px-3 py-2 rounded hover:bg-[#F5F3EC] hover:text-[#B84318] transition-colors">

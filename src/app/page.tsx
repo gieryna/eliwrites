@@ -70,38 +70,38 @@ export default function Home() {
       {/* Divider */}
       <div className="border-t border-[#E8E6DC] mb-10" />
 
-      {/* Currently */}
-      <div className="mb-2">
-        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-5">
+{/* Currently */}
+<div className="mb-2">
+        <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#B84318] mb-8">
           Currently
         </p>
         <div className="grid grid-cols-3 gap-8">
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#1C1C1A] mb-2">
+            <p className="font-sans text-xs uppercase tracking-widest text-[#1C1C1A] mb-3">
               Reading
             </p>
-            <p className="font-serif text-base text-[#1C1C1A] leading-relaxed">
+            <p className="font-serif text-2xl text-[#1C1C1A] leading-snug">
               The Hobbit illustrated edition, aloud, to my kids.
             </p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#1C1C1A] mb-2">
+            <p className="font-sans text-xs uppercase tracking-widest text-[#1C1C1A] mb-3">
               Thinking about
             </p>
-            <p className="font-serif text-base text-[#1C1C1A] leading-relaxed">
-              What makes a personal site feel alive versus just present.
+            <p className="font-serif text-2xl text-[#1C1C1A] leading-snug">
+              Dead Internet theory. But also summer vacation spots..
             </p>
           </div>
           <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[#1C1C1A] mb-2">
+            <p className="font-sans text-xs uppercase tracking-widest text-[#1C1C1A] mb-3">
               Outside
             </p>
-            <p className="font-serif text-base text-[#1C1C1A] leading-relaxed">
+            <p className="font-serif text-2xl text-[#1C1C1A] leading-snug">
               Kansas City in early spring. Finally.
             </p>
           </div>
         </div>
-        <div className="mt-6">
+        <div className="mt-8">
           <Link href="/currently" className="font-sans text-sm text-[#1C1C1A] hover:text-[#B84318] transition-colors">
             More of what I'm up to →
           </Link>
