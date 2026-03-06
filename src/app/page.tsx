@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Greeting from "@/components/Greeting";
 
 export default function Home() {
   return (
@@ -7,10 +8,8 @@ export default function Home() {
       {/* Hero — two column */}
       <div className="grid grid-cols-2 gap-12 items-center mb-16">
         <div>
-          <h1 className="font-serif text-4xl font-bold text-[#1C1C1A] mb-6 leading-tight">
-            The writer in the room.
-          </h1>
-          <p className="text-lg text-[#1C1C1A] leading-relaxed mb-8">
+          <Greeting />
+          <p className="text-lg text-[#1C1C1A] leading-relaxed mb-8 mt-6">
             Eli Gieryna is a writer and content designer based in Kansas City.
             He specializes in UX writing, content strategy, and storytelling for
             digital products. He's passionate about user empathy, clear
@@ -21,18 +20,18 @@ export default function Home() {
           </Link>
         </div>
         <div className="flex items-center justify-center">
-        <img
-  src="/eli-headshot.jpg"
-  alt="Eli Gieryna"
-  className="w-64 h-64 rounded-full object-cover"
-/>
+          <img
+            src="/eli-headshot.jpg"
+            alt="Eli Gieryna"
+            className="w-64 h-64 rounded-full object-cover"
+          />
         </div>
       </div>
 
       {/* Divider */}
       <div className="border-t border-[#E8E6DC] mb-16" />
 
-      {/* Featured Work — two column, flipped */}
+      {/* Featured Work */}
       <div>
         <p className="font-sans text-xs uppercase tracking-widest text-[#B84318] mb-6">
           Featured

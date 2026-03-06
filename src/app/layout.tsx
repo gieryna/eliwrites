@@ -39,9 +39,9 @@ export default function RootLayout({
       Home
     </Link>
     <Link href="/work" className="flex items-center gap-3 px-3 py-2 rounded hover:bg-[#F5F3EC] hover:text-[#B84318] transition-colors">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
-      Work
-    </Link>
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+  <span className="hand-underline">Work</span>
+</Link>
     <Link href="/about" className="flex items-center gap-3 px-3 py-2 rounded hover:bg-[#F5F3EC] hover:text-[#B84318] transition-colors">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
       About
